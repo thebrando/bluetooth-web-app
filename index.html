@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESP32 BLE Controller</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 50px;
+      }
+      button {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ESP32 BLE Controller</h1>
+    <button id="connect">Connect to ESP32</button>
+    <button id="increaseAttack" disabled>Increase Attack</button>
+    <button id="increaseHealth" disabled>Increase Health</button>
+
+    <script>
+      document.getElementById("connect").addEventListener("click", function () {
+        // Add BLE connection logic here
+      });
+
+      document
+        .getElementById("increaseAttack")
+        .addEventListener("click", function () {
+          // Add logic to send command to increase attack
+        });
+
+      document
+        .getElementById("increaseHealth")
+        .addEventListener("click", function () {
+          // Add logic to send command to increase health
+        });
+    </script>
+  </body>
+</html>
